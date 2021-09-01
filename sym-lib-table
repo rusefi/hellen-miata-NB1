@@ -77,4 +77,5 @@
   (lib (name "hellen-one-wbo-0.2")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/wbo/0.2/wbo.kicad_sym")(options "")(descr "Hellen-One WBO Module"))
   (lib (name "hellen-one-dinput4-0.1")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/dinput4/0.1/dinput4.kicad_sym")(options "")(descr "Hellen-One Digital Inputs Module"))
   (lib (name "QMA7981")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/QMA7981.kicad_sym")(options "")(descr ""))
+  (lib (name "178780-1")(type "KiCad")(uri "${KIPRJMOD}/178780-1.kicad_sym")(options "")(descr ""))
 )

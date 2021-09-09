@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 5.0,
-          "height": 7.0,
-          "width": 7.0
+          "drill": 0.7,
+          "height": 2.4,
+          "width": 1.1
         },
         "silk_line_width": 0.25,
         "silk_text_italic": false,
@@ -118,7 +118,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_over_copper": "warning",
-        "silk_overlap": "error",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "too_many_vias": "error",
         "track_dangling": "error",

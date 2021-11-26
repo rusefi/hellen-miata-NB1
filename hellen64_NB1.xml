@@ -2,13 +2,13 @@
 <export version="E">
   <design>
     <source>G:\RADIO\PROJECTS\S3EFI\Hellen\src\!release\!hellen-boards\commercial_products\hellen64_NB1\hellen64_NB1.kicad_sch</source>
-    <date>15/09/2021 08:46:29</date>
+    <date>26/11/2021 12:04:25</date>
     <tool>Eeschema (5.99.0-10559-g8513ca974c)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>hellen64 NB1</title>
         <company>rusEFI</company>
-        <rev>A</rev>
+        <rev>B</rev>
         <date>2021-06-30</date>
         <source>hellen64_NB1.kicad_sch</source>
         <comment number="1" value=""/>
@@ -1114,8 +1114,8 @@
     </comp>
     <comp ref="M3">
       <value>Module-mcu144-0.5</value>
-      <footprint>hellen-one-mcu-0.3:mcu</footprint>
-      <libsource lib="hellen-one-mcu-0.3" part="Module-mcu-0.3" description="Hellen One MCU Module"/>
+      <footprint>hellen-one-mcu-0.5:mcu</footprint>
+      <libsource lib="hellen-one-mcu-0.5" part="Module-mcu-0.5" description="Hellen One MCU Module"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen64_NB1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1131,13 +1131,13 @@
       <tstamps>46c92d79-ab77-4cea-933a-f95fdcee2757</tstamps>
     </comp>
     <comp ref="M5">
-      <value>Module-output-0.2</value>
-      <footprint>hellen-one-output-0.2:output</footprint>
-      <libsource lib="hellen-one-output-0.2" part="Module-output-0.2" description="Hellen-One Outputs Module"/>
+      <value>Module-output-0.3</value>
+      <footprint>hellen-one-output-0.3:output</footprint>
+      <libsource lib="hellen-one-output-0.3" part="Module-output-0.3" description="Hellen-One Outputs Module"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen64_NB1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>808ed398-2b6d-4dc7-971d-699409b9d7b5229bfd16-421d-49a0-a382-7d5056ead6a80daa1d7b-dc4e-4925-8d2c-7394a8bbb0e2</tstamps>
+      <tstamps>229bfd16-421d-49a0-a382-7d5056ead6a8808ed398-2b6d-4dc7-971d-699409b9d7b50daa1d7b-dc4e-4925-8d2c-7394a8bbb0e2</tstamps>
     </comp>
     <comp ref="M6">
       <value>Module-dinput4-0.1</value>
@@ -1186,17 +1186,17 @@
     </comp>
     <comp ref="M11">
       <value>Module-power5-0.2</value>
-      <footprint>hellen-one-power5-0.1:power5</footprint>
-      <libsource lib="hellen-one-power5-0.1" part="Module-power5-0.1" description="Hellen-One Power-5V Module"/>
+      <footprint>hellen-one-power5-0.2:power5</footprint>
+      <libsource lib="hellen-one-power5-0.2" part="Module-power5-0.2" description="Hellen-One Power-5V Module"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen64_NB1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ecf48ddf-8d02-4570-8ae6-b2411fa17b9e</tstamps>
     </comp>
     <comp ref="M12">
-      <value>Module-wbo-0.2</value>
-      <footprint>hellen-one-wbo-0.2:wbo</footprint>
-      <libsource lib="hellen-one-wbo-0.2" part="Module-wbo-0.2" description=""/>
+      <value>Module-wbo-0.3</value>
+      <footprint>hellen-one-wbo-0.3:wbo</footprint>
+      <libsource lib="hellen-one-wbo-0.3" part="Module-wbo-0.3" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen64_NB1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3098,12 +3098,12 @@
         <pin num="W2" name="VREF" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="hellen-one-mcu-0.3" part="Module-mcu-0.3">
+    <libpart lib="hellen-one-mcu-0.5" part="Module-mcu-0.5">
       <description>Hellen One MCU Module</description>
       <fields>
         <field name="Reference">M</field>
-        <field name="Value">Module-mcu-0.3</field>
-        <field name="Footprint">hellen-one-mcu-0.3:mcu</field>
+        <field name="Value">Module-mcu144-0.5</field>
+        <field name="Footprint">hellen-one-mcu-0.5:mcu</field>
       </fields>
       <pins>
         <pin num="E1" name="SPI1_SCK" type="passive"/>
@@ -3217,12 +3217,12 @@
         <pin num="W10" name="IGN_V33" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="hellen-one-output-0.2" part="Module-output-0.2">
+    <libpart lib="hellen-one-output-0.3" part="Module-output-0.3">
       <description>Hellen-One Outputs Module</description>
       <fields>
         <field name="Reference">M</field>
-        <field name="Value">Module-output-0.2</field>
-        <field name="Footprint">hellen-one-output-0.2:output</field>
+        <field name="Value">Module-output-0.3</field>
+        <field name="Footprint">hellen-one-output-0.3:output</field>
       </fields>
       <pins>
         <pin num="G" name="GND" type="passive"/>
@@ -3304,12 +3304,12 @@
         <pin num="V5" name="VIGN" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="hellen-one-power5-0.1" part="Module-power5-0.1">
+    <libpart lib="hellen-one-power5-0.2" part="Module-power5-0.2">
       <description>Hellen-One Power-5V Module</description>
       <fields>
         <field name="Reference">M</field>
-        <field name="Value">Module-power5-0.1</field>
-        <field name="Footprint">hellen-one-power5-0.1:power5</field>
+        <field name="Value">Module-power5-0.2</field>
+        <field name="Footprint">hellen-one-power5-0.2:power5</field>
       </fields>
       <pins>
         <pin num="G" name="GND" type="passive"/>
@@ -3352,11 +3352,11 @@
         <pin num="N6" name="nReset" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="hellen-one-wbo-0.2" part="Module-wbo-0.2">
+    <libpart lib="hellen-one-wbo-0.3" part="Module-wbo-0.3">
       <fields>
         <field name="Reference">M</field>
-        <field name="Value">Module-wbo-0.2</field>
-        <field name="Footprint">hellen-one-wbo-0.2:wbo</field>
+        <field name="Value">Module-wbo-0.3</field>
+        <field name="Footprint">hellen-one-wbo-0.3:wbo</field>
       </fields>
       <pins>
         <pin num="E1" name="LSU_Un" type="passive"/>
@@ -3394,16 +3394,16 @@
       <uri>G:\RADIO\PROJECTS\S3EFI\Hellen\src\!release\!hellen-boards\commercial_products\hellen64_NB1/178780-1.kicad_sym</uri>
     </library>
     <library logical="Amplifier_Operational">
-      <uri>G:\RADIO\bin\KiCad\share\kicad\library/Amplifier_Operational.lib</uri>
+      <uri/>
     </library>
     <library logical="Connector">
-      <uri>G:\RADIO\bin\KiCad\share\kicad\library/Connector.lib</uri>
+      <uri/>
     </library>
     <library logical="Connector_Generic">
-      <uri>G:\RADIO\bin\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+      <uri/>
     </library>
     <library logical="Device">
-      <uri>G:\RADIO\bin\KiCad\share\kicad\library/Device.lib</uri>
+      <uri/>
     </library>
     <library logical="MPX-4_MAP">
       <uri>G:\RADIO\PROJECTS\S3EFI\Hellen\src\!release\!hellen-boards\commercial_products\hellen64_NB1/kicad-libraries/MPX-4_MAP.kicad_sym</uri>
@@ -3412,7 +3412,7 @@
       <uri>G:\RADIO\PROJECTS\S3EFI\Hellen\src\!release\!hellen-boards\commercial_products\hellen64_NB1/kicad-libraries/Off_Road_Disclaimer.kicad_sym</uri>
     </library>
     <library logical="Sensor_Pressure">
-      <uri>G:\RADIO\bin\KiCad\share\kicad\library/Sensor_Pressure.lib</uri>
+      <uri/>
     </library>
     <library logical="art-electro-power">
       <uri>G:\RADIO\PROJECTS\S3EFI\Hellen\src\!release\!hellen-boards\commercial_products\hellen64_NB1/kicad-libraries/art-electro-power.kicad_sym</uri>
@@ -3435,17 +3435,17 @@
     <library logical="hellen-one-knock-0.1">
       <uri>G:\RADIO\PROJECTS\S3EFI\Hellen\src\!release\!hellen-boards\commercial_products\hellen64_NB1/hellen-one/modules/knock/0.1/knock.kicad_sym</uri>
     </library>
-    <library logical="hellen-one-mcu-0.3">
-      <uri>G:\RADIO\PROJECTS\S3EFI\Hellen\src\!release\!hellen-boards\commercial_products\hellen64_NB1/hellen-one/modules/mcu/0.3/mcu.kicad_sym</uri>
+    <library logical="hellen-one-mcu-0.5">
+      <uri>G:\RADIO\PROJECTS\S3EFI\Hellen\src\!release\!hellen-boards\commercial_products\hellen64_NB1/hellen-one/modules/mcu/0.5/mcu.kicad_sym</uri>
     </library>
-    <library logical="hellen-one-output-0.2">
-      <uri>G:\RADIO\PROJECTS\S3EFI\Hellen\src\!release\!hellen-boards\commercial_products\hellen64_NB1/hellen-one/modules/output/0.2/output.kicad_sym</uri>
+    <library logical="hellen-one-output-0.3">
+      <uri>G:\RADIO\PROJECTS\S3EFI\Hellen\src\!release\!hellen-boards\commercial_products\hellen64_NB1/hellen-one/modules/output/0.3/output.kicad_sym</uri>
     </library>
     <library logical="hellen-one-power12-0.2">
       <uri>G:\RADIO\PROJECTS\S3EFI\Hellen\src\!release\!hellen-boards\commercial_products\hellen64_NB1/hellen-one/modules/power12/0.2/power12.kicad_sym</uri>
     </library>
-    <library logical="hellen-one-power5-0.1">
-      <uri>G:\RADIO\PROJECTS\S3EFI\Hellen\src\!release\!hellen-boards\commercial_products\hellen64_NB1/hellen-one/modules/power5/0.1/power5.kicad_sym</uri>
+    <library logical="hellen-one-power5-0.2">
+      <uri>G:\RADIO\PROJECTS\S3EFI\Hellen\src\!release\!hellen-boards\commercial_products\hellen64_NB1/hellen-one/modules/power5/0.2/power5.kicad_sym</uri>
     </library>
     <library logical="hellen-one-sd-0.1">
       <uri>G:\RADIO\PROJECTS\S3EFI\Hellen\src\!release\!hellen-boards\commercial_products\hellen64_NB1/hellen-one/modules/sd/0.1/sd.kicad_sym</uri>
@@ -3453,8 +3453,8 @@
     <library logical="hellen-one-stlink-0.1">
       <uri>G:\RADIO\PROJECTS\S3EFI\Hellen\src\!release\!hellen-boards\commercial_products\hellen64_NB1/hellen-one/modules/stlink/0.1/stlink.kicad_sym</uri>
     </library>
-    <library logical="hellen-one-wbo-0.2">
-      <uri>G:\RADIO\PROJECTS\S3EFI\Hellen\src\!release\!hellen-boards\commercial_products\hellen64_NB1/hellen-one/modules/wbo/0.2/wbo.kicad_sym</uri>
+    <library logical="hellen-one-wbo-0.3">
+      <uri>G:\RADIO\PROJECTS\S3EFI\Hellen\src\!release\!hellen-boards\commercial_products\hellen64_NB1/hellen-one/modules/wbo/0.3/wbo.kicad_sym</uri>
     </library>
     <library logical="logo">
       <uri>G:\RADIO\PROJECTS\S3EFI\Hellen\src\!release\!hellen-boards\commercial_products\hellen64_NB1/kicad-libraries/logo.kicad_sym</uri>

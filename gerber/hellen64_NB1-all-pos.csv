@@ -72,7 +72,7 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "J3","MiniFit","Molex-39301020",27.400000,101.500000,90.000000,top
 "J4","Conn_02x12_Odd_Even","PinHeader_2x12_P2.54mm_Vertical",122.824040,8.989220,-90.000000,top
 "J5","USB_B","USB_B",142.076680,101.605340,0.000000,top
-"J6","ETB","PinHeader_1x06_P2.54mm_Vertical",54.901680,106.280340,180.000000,top
+"J6","ETB","PinHeader_1x08_P2.54mm_Vertical",54.901680,105.830340,180.000000,top
 "J25","AudioJack3_SwitchTR","Jack_3.5mm_PJ-3250-5A",141.826680,87.631997,-90.000000,top
 "J27","Conn_01x06","PinHeader_1x06_P2.54mm_Vertical",103.851680,97.005340,-90.000000,top
 "M1","Module-input-0.1","input",115.937640,75.585021,180.000000,top

@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>G:\RADIO\PROJECTS\S3EFI\Hellen\src\!release\!hellen-boards\commercial_products\hellen64_NB1\hellen64_NB1.kicad_sch</source>
-    <date>26/11/2021 12:04:25</date>
+    <date>27/11/2021 12:41:38</date>
     <tool>Eeschema (5.99.0-10559-g8513ca974c)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -948,17 +948,17 @@
     </comp>
     <comp ref="J6">
       <value>ETB</value>
-      <footprint>hellen-one-common:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <footprint>hellen-one-common:PinHeader_1x08_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C343639</field>
       </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="LCSC" value="C343639"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen64_NB1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>5afe1100-8c97-4555-be41-881acb241b5f</tstamps>
+      <tstamps>9b2d5feb-f825-4b5d-9245-ed6143e67604</tstamps>
     </comp>
     <comp ref="J11">
       <value>Conn_01x01</value>
@@ -1101,7 +1101,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen64_NB1.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>ef04da57-4b19-4699-a300-a7c31972f66055b40ec7-180b-4cdb-a45d-769423e8b51b2491bc1e-e5b1-4fb8-a6b1-0e8865d2abd00437e834-c13e-424a-9ad2-040b8ce9ed1d</tstamps>
+      <tstamps>ef04da57-4b19-4699-a300-a7c31972f6602491bc1e-e5b1-4fb8-a6b1-0e8865d2abd055b40ec7-180b-4cdb-a45d-769423e8b51b0437e834-c13e-424a-9ad2-040b8ce9ed1d</tstamps>
     </comp>
     <comp ref="M2">
       <value>Module-ign8-0.1</value>
@@ -2505,6 +2505,28 @@
         <pin num="6" name="Pin_6" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Connector_Generic" part="Conn_02x12_Odd_Even">
       <description>Generic connector, double row, 02x12, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
@@ -3508,6 +3530,7 @@
     <net code="4" name="+5VA">
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="M1" pin="E5" pinfunction="V5A" pintype="passive"/>
       <node ref="M1" pin="J1" pinfunction="PULL_V5A" pintype="passive"/>
       <node ref="M1" pin="J15" pinfunction="PULL_IAT" pintype="passive"/>
@@ -4047,7 +4070,7 @@
       <node ref="P2" pin="26" pinfunction="2G" pintype="passive"/>
     </net>
     <net code="121" name="/IN_PPS">
-      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J6" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="M1" pin="S24" pinfunction="IN_PPS" pintype="passive"/>
     </net>
     <net code="122" name="/IN_PRESSURE">
@@ -4072,17 +4095,17 @@
       <node ref="R37" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="127" name="/IN_TEMP_OR_PPS2">
-      <node ref="J6" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J6" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="M1" pin="S18" pinfunction="IN_AUX2" pintype="passive"/>
       <node ref="R21" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="128" name="/IN_TPS">
-      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="M1" pin="S10" pinfunction="IN_TPS" pintype="passive"/>
       <node ref="P2" pin="41" pinfunction="3E" pintype="passive"/>
     </net>
     <net code="129" name="/IN_TPS2">
-      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="M1" pin="S25" pinfunction="IN_O2S2" pintype="passive"/>
     </net>
     <net code="130" name="/IN_VSS">
@@ -4491,7 +4514,8 @@
       <node ref="J4" pin="24" pinfunction="Pin_24" pintype="passive"/>
       <node ref="J5" pin="4" pinfunction="GND" pintype="power_out"/>
       <node ref="J5" pin="5" pinfunction="Shield" pintype="passive"/>
-      <node ref="J6" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J6" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J6" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="M1" pin="E1" pinfunction="GND" pintype="passive"/>
       <node ref="M1" pin="J11" pinfunction="PULL_RES3" pintype="passive"/>
       <node ref="M1" pin="J12" pinfunction="PULL_MAP3" pintype="passive"/>

@@ -1,4 +1,4 @@
-246967733385939
+240517204144494
 Connector_USB
 USB3_A_Molex_48393-001
 USB 3.0, type A, right angle (http://www.molex.com/pdm_docs/sd/483930003_sd.pdf)
@@ -420,6 +420,13 @@ Through hole pin header THT 1x06 2.54mm single row
 6
 6
 hellen-one-common
+PinHeader_1x08_P2.54mm_Vertical
+Through hole straight pin header, 1x08, 2.54mm pitch, single row
+Through hole pin header THT 1x08 2.54mm single row
+0
+8
+8
+hellen-one-common
 R0603
 
 
@@ -496,6 +503,13 @@ USB-B receptacle horizontal through-hole
 0
 6
 5
+hellen-one-common
+XH-8A
+
+
+0
+8
+8
 hellen-one-dinput4-0.1
 dinput4
 
@@ -531,34 +545,13 @@ lin
 0
 12
 8
-hellen-one-mcu-0.1
-mcu
-
-
-0
-120
-109
-hellen-one-mcu-0.2
-mcu
-
-
-0
-120
-109
-hellen-one-mcu-0.3
+hellen-one-mcu-0.5
 mcu
 
 
 0
 121
 109
-hellen-one-output-0.1
-output
-
-
-0
-73
-59
 hellen-one-output-0.3
 output
 
@@ -566,13 +559,6 @@ output
 0
 73
 59
-hellen-one-power5-0.1
-power5
-
-
-0
-13
-3
 hellen-one-power5-0.2
 power5
 
@@ -580,13 +566,6 @@ power5
 0
 13
 3
-hellen-one-power12-0.1
-power12
-
-
-0
-14
-8
 hellen-one-power12-0.2
 power12
 
@@ -608,14 +587,7 @@ stlink
 0
 17
 7
-hellen-one-wbo-0.1
-wbo
-
-
-0
-28
-15
-hellen-one-wbo-0.2
+hellen-one-wbo-0.3
 wbo
 
 

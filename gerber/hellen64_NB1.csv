@@ -72,7 +72,7 @@
 "MiniFit","J3","hellen-one-common:Molex-39301020","C240832"
 "Conn_02x12_Odd_Even","J4","Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical",""
 "USB_B","J5","hellen-one-common:USB_B","C46392"
-"ETB","J6","hellen-one-common:PinHeader_1x06_P2.54mm_Vertical","C343639"
+"ETB","J6","hellen-one-common:PinHeader_1x08_P2.54mm_Vertical","C343639"
 "Conn_01x01","J11","MountingHole:MountingHole_4.5mm_Pad",""
 "Conn_01x01","J13","MountingHole:MountingHole_4.5mm_Pad",""
 "Conn_01x01","J14","MountingHole:MountingHole_4.5mm_Pad",""

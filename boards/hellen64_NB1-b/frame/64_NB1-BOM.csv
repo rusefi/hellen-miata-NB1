@@ -72,7 +72,7 @@ Comment,Designator,Footprint,LCSC Part #
 "MiniFit","J3","Molex-39301020","C240832"
 "Conn_02x12_Odd_Even","J4","PinHeader_2x12_P2.54mm_Vertical",""
 "USB_B","J5","USB_B","C46392"
-"ETB","J6","PinHeader_1x06_P2.54mm_Vertical","C343639"
+"ETB","J6","PinHeader_1x08_P2.54mm_Vertical","C343639"
 "Conn_01x01","J11","MountingHole_4.5mm_Pad",""
 "Conn_01x01","J13","MountingHole_4.5mm_Pad",""
 "Conn_01x01","J14","MountingHole_4.5mm_Pad",""

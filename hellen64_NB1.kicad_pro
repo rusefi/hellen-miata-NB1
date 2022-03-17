@@ -86,7 +86,13 @@
         "copper_edge_clearance|168217490|56489690|6b417e9a-cef2-4218-ac1f-114c1c24df52|2bdf114c-49f2-4895-a278-853bbafcc6ef",
         "copper_edge_clearance|168250000|56050000|142abb75-965b-4e8c-ae56-70b1c5890df0|2bdf114c-49f2-4895-a278-853bbafcc6ef",
         "copper_edge_clearance|168250000|56050000|8d845ebb-78fd-45d7-b34a-9ee5a1ec8233|2bdf114c-49f2-4895-a278-853bbafcc6ef",
-        "copper_edge_clearance|168668473|54614625|853244b8-9af2-49f2-b94d-37098bad925c|2bdf114c-49f2-4895-a278-853bbafcc6ef"
+        "copper_edge_clearance|168668473|54614625|853244b8-9af2-49f2-b94d-37098bad925c|2bdf114c-49f2-4895-a278-853bbafcc6ef",
+        "copper_edge_clearance|172298493|98842896|8696d94d-78bf-41f9-a420-893db921c844|e20dc41d-d5f1-4df7-bed8-632c77d1da28",
+        "copper_edge_clearance|172595853|164962471|b3c76701-ed5b-4d2e-8bfa-d4d3033e1300|e9fb6459-f5c1-4e4f-a467-92e7cb9f079c",
+        "copper_edge_clearance|172597704|16844581|60f6ee24-a108-4107-9bc5-d2e6d36c9e5b|bf9816a7-e817-4b99-b04a-75dfef7386b8",
+        "copper_edge_clearance|28597704|165644581|79b71329-957d-45a7-811f-afa4f20cc64f|6b7a8eda-6016-4a83-8b21-b34e6ea54b53",
+        "copper_edge_clearance|28597704|16844581|a25e045e-6469-4013-a985-0f896f5e0a18|9c30f7e9-97fa-45be-8506-2e27b545aa6a",
+        "courtyards_overlap|56348319|69450999|c64ef2bf-86f8-4cd1-973b-1cb08c2af660|fa3c2254-bbb4-4c0b-8037-2d0e43cd925c"
       ],
       "meta": {
         "filename": "board_design_settings.json",
@@ -102,6 +108,7 @@
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -120,6 +127,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
+        "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "error",
         "track_width": "error",
@@ -372,6 +380,7 @@
     ],
     "rule_severities": {
       "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
       "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
@@ -448,7 +457,7 @@
       }
     ],
     "meta": {
-      "version": 0
+      "version": 2
     },
     "net_colors": null
   },
@@ -464,6 +473,7 @@
     "page_layout_descr_file": "kicad-libraries/Border.kicad_wks"
   },
   "schematic": {
+    "annotate_start_num": 0,
     "drawing": {
       "default_bus_thickness": 12.0,
       "default_junction_size": 40.0,
@@ -477,20 +487,24 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
+      "label_size_ratio": 0.3,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.3
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
     "meta": {
-      "version": 0
+      "version": 1
     },
     "net_format_name": "Pcbnew",
     "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
       "meta": {
         "version": 0
       },
-      "model_mode": 0
+      "model_mode": 0,
+      "workbook_filename": ""
     },
     "page_layout_descr_file": "kicad-libraries/Border.kicad_wks",
     "plot_directory": "gerber/",
